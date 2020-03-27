@@ -28,7 +28,7 @@ class CopyingMegamenu(unittest.TestCase):
         time.sleep(3)
         qty = 1 + len(driver.find_elements_by_xpath("//div[@class='main-menu-wrp']/ul/li"))
         n = 1
-        file = open("megamenu_ru.cvs","w")
+        file = open("./csv/megamenu_ru.cvs","w")
         file.write("name_category" + ',' + "img_category" + ',' + "url_category" +','+ "title" '\n')
         while n < qty:
             xpath = "//div[@class='main-menu-wrp']/ul/li[" + str(n) + "]"
@@ -73,9 +73,9 @@ class CopyingMegamenu(unittest.TestCase):
     def copying_img(self, url):
         p = requests.get(url)
         name = url.split("/", -1)
-        # out = open("./qwe/"+name[-1]+"", "wb")
-        # out.write(p.content)
-        # out.close()
+        out = open("./qwe/"+name[-1]+"", "wb")
+        out.write(p.content)
+        out.close()
         return name[-1]
 
     def tearDown(self):
