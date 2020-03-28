@@ -20,7 +20,7 @@ class CopyingMegamenu(unittest.TestCase):
 
     def test_search_in_python_org(self):
         driver = self.driver
-        driver.get("https://ru.sas.am")
+        driver.get("https://www.sas.am")
         driver.maximize_window()
         time.sleep(3)
         elem = driver.find_element_by_xpath("//div[@class='sidenav']/div[1]/ul[1]/li")
@@ -28,8 +28,8 @@ class CopyingMegamenu(unittest.TestCase):
         time.sleep(3)
         qty = 1 + len(driver.find_elements_by_xpath("//div[@class='main-menu-wrp']/ul/li"))
         n = 1
-        file = open("./csv/megamenu_ru.cvs","w")
-        file.write("name_category" + ',' + "img_category" + ',' + "url_category" +','+ "title" '\n')
+        file = open("./csv/megamenu_arm.csv","w")
+        file.write("name_category" + ';' + "img_category" + ';' + "url_category" +';'+ "title" '\n')
         while n < qty:
             xpath = "//div[@class='main-menu-wrp']/ul/li[" + str(n) + "]"
             elem = driver.find_element_by_xpath(xpath)
@@ -41,8 +41,7 @@ class CopyingMegamenu(unittest.TestCase):
             name_category = img.get_attribute("title")
             url_category = element.get_attribute("href")
             qty_div = len(driver.find_elements_by_xpath(xpath + "/div[2]/div[2]/div"))
-            print('qty_div = '+str(qty_div))
-            file.write(name_category + ',' + img_category + ',' + url_category +',' + "True" + '\n')
+            file.write(name_category + ';' + img_category + ';' + url_category +';' + "True" + '\n')
             i = 1
             while i < qty_div:
                 xpath_column = xpath + "/div[2]/div[2]/div["+ str(i) +"]/ul/li"
@@ -60,22 +59,19 @@ class CopyingMegamenu(unittest.TestCase):
                          title = "True"
                     else:
                          title = "False"
-                    file.write(name_category + ',' + img_category + ',' + url_category + ','+ str(title) +'\n')
-                    print("c ="+str(c))
+                    file.write(name_category + ';' + img_category + ';' + url_category + ';'+ str(title) +'\n')
                     c = c + 1
-                print('i = '+str(i))
                 i = i + 1
             ActionChains(driver).move_to_element(elem).click().perform()
             n = n + 1
-            print("n = "+str(n))
         file.close()
 
     def copying_img(self, url):
         p = requests.get(url)
         name = url.split("/", -1)
-        out = open("./qwe/"+name[-1]+"", "wb")
-        out.write(p.content)
-        out.close()
+        # out = open("./qwe/"+name[-1]+"", "wb")
+        # out.write(p.content)
+        # out.close()
         return name[-1]
 
     def tearDown(self):
