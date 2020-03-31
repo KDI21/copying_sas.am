@@ -20,7 +20,7 @@ class CopyingMegamenu(unittest.TestCase):
 
     def test_search_in_python_org(self):
         driver = self.driver
-        driver.get("https://www.sas.am")
+        driver.get("https://ru.sas.am")
         driver.maximize_window()
         time.sleep(3)
         elem = driver.find_element_by_xpath("//div[@class='sidenav']/div[1]/ul[1]/li")
@@ -28,7 +28,7 @@ class CopyingMegamenu(unittest.TestCase):
         time.sleep(3)
         qty = 1 + len(driver.find_elements_by_xpath("//div[@class='main-menu-wrp']/ul/li"))
         n = 1
-        file = open("./csv/megamenu_arm.csv","w")
+        file = open("./csv/megamenu_ru.csv","w")
         file.write("name_category" + ';' + "img_category" + ';' + "url_category" +';'+ "title" '\n')
         while n < qty:
             xpath = "//div[@class='main-menu-wrp']/ul/li[" + str(n) + "]"
@@ -50,7 +50,7 @@ class CopyingMegamenu(unittest.TestCase):
                 while c < qty_li:
                     xpath_a = xpath_column + "["+ str(c) +"]/a"
                     elem_categoty = driver.find_element_by_xpath(xpath_a)
-                    url_img = "https://www.sas.am" + elem_categoty.get_attribute("rel")
+                    url_img = "https://ru.sas.am" + elem_categoty.get_attribute("rel")
                     img_category = self.copying_img(url_img)
                     name_category = elem_categoty.text
                     url_category = elem_categoty.get_attribute("href")
