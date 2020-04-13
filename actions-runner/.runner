@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "k21-System-Product-Name",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/",
+  "gitHubUrl": "https://github.com/KDI21/copying_sas.am",
+  "workFolder": "_work"
+}

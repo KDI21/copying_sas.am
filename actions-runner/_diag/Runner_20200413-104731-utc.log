@@ -1,0 +1,131 @@
+[2020-04-13 10:47:31Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-04-13 10:47:31Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2020-04-13 10:47:31Z INFO Listener] RuntimeInformation: Linux 5.3.0-46-generic #38-Ubuntu SMP Fri Mar 27 17:37:05 UTC 2020.
+[2020-04-13 10:47:31Z INFO Listener] Version: 2.168.0
+[2020-04-13 10:47:31Z INFO Listener] Commit: 9ed9e7a6730db3f4e83900620d4ac3c00ff3e775
+[2020-04-13 10:47:31Z INFO Listener] Culture: ru-RU
+[2020-04-13 10:47:31Z INFO Listener] UI Culture: ru-RU
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Root': '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO Listener] Validating directory permissions for: '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO CommandLineParser] Parse
+[2020-04-13 10:47:31Z INFO CommandLineParser] Parsing 1 args
+[2020-04-13 10:47:31Z INFO CommandLineParser] parsing argument
+[2020-04-13 10:47:31Z INFO CommandLineParser] HasArgs: False
+[2020-04-13 10:47:31Z INFO CommandLineParser] Adding Command: run
+[2020-04-13 10:47:31Z INFO Listener] Arguments parsed
+[2020-04-13 10:47:31Z INFO Runner] ExecuteCommand
+[2020-04-13 10:47:31Z INFO ConfigurationStore] currentAssemblyLocation: /home/k21/Рабочий стол/copying_sas.am/actions-runner/bin/Runner.Listener.dll
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO ConfigurationStore] binPath: /home/k21/Рабочий стол/copying_sas.am/actions-runner/bin
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Root': '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO ConfigurationStore] RootFolder: /home/k21/Рабочий стол/copying_sas.am/actions-runner
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Root': '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO HostContext] Well known config file 'Runner': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/.runner'
+[2020-04-13 10:47:31Z INFO ConfigurationStore] ConfigFilePath: /home/k21/Рабочий стол/copying_sas.am/actions-runner/.runner
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Root': '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO HostContext] Well known config file 'Credentials': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials'
+[2020-04-13 10:47:31Z INFO ConfigurationStore] CredFilePath: /home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Root': '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_migrated'
+[2020-04-13 10:47:31Z INFO ConfigurationStore] MigratedCredFilePath: /home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_migrated
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Root': '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO HostContext] Well known config file 'Service': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/.service'
+[2020-04-13 10:47:31Z INFO ConfigurationStore] ServiceConfigFilePath: /home/k21/Рабочий стол/copying_sas.am/actions-runner/.service
+[2020-04-13 10:47:31Z INFO CommandSettings] Flag 'help': 'False'
+[2020-04-13 10:47:31Z INFO CommandSettings] Flag 'version': 'False'
+[2020-04-13 10:47:31Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-04-13 10:47:31Z INFO CommandSettings] Command 'configure': 'False'
+[2020-04-13 10:47:31Z INFO CommandSettings] Command 'remove': 'False'
+[2020-04-13 10:47:31Z INFO CommandSettings] Command 'warmup': 'False'
+[2020-04-13 10:47:31Z INFO ConfigurationManager] LoadSettings
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsConfigured()
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsConfigured: True
+[2020-04-13 10:47:31Z INFO ConfigurationManager] Is configured: True
+[2020-04-13 10:47:31Z INFO ConfigurationStore] Read setting file: 301 chars
+[2020-04-13 10:47:31Z INFO ConfigurationManager] Settings Loaded
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsServiceConfigured: False
+[2020-04-13 10:47:31Z INFO CommandSettings] Command 'run': 'True'
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsConfigured()
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsConfigured: True
+[2020-04-13 10:47:31Z INFO ConfigurationManager] Is configured: True
+[2020-04-13 10:47:31Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2020-04-13 10:47:31Z INFO Runner] Set runner startup type - Manual
+[2020-04-13 10:47:31Z INFO CommandSettings] Flag 'once': 'False'
+[2020-04-13 10:47:31Z INFO Runner] RunAsync
+[2020-04-13 10:47:31Z INFO ConfigurationManager] LoadSettings
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsConfigured()
+[2020-04-13 10:47:31Z INFO ConfigurationStore] IsConfigured: True
+[2020-04-13 10:47:31Z INFO ConfigurationManager] Is configured: True
+[2020-04-13 10:47:31Z INFO ConfigurationManager] Settings Loaded
+[2020-04-13 10:47:31Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "k21-System-Product-Name",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/",
+  "GitHubUrl": "https://github.com/KDI21/copying_sas.am",
+  "WorkFolder": "_work"
+}
+[2020-04-13 10:47:31Z INFO MessageListener] Loading Credentials
+[2020-04-13 10:47:31Z INFO ConfigurationStore] HasCredentials()
+[2020-04-13 10:47:31Z INFO ConfigurationStore] stored True
+[2020-04-13 10:47:31Z INFO CredentialManager] GetCredentialProvider
+[2020-04-13 10:47:31Z INFO CredentialManager] Creating type OAuth
+[2020-04-13 10:47:31Z INFO CredentialManager] Creating credential type: OAuth
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 10:47:31Z INFO HostContext] Well known directory 'Root': '/home/k21/Рабочий стол/copying_sas.am/actions-runner'
+[2020-04-13 10:47:31Z INFO HostContext] Well known config file 'RSACredentials': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_rsaparams'
+[2020-04-13 10:47:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_rsaparams
+[2020-04-13 10:47:31Z INFO MessageListener] Attempt to create session.
+[2020-04-13 10:47:31Z INFO MessageListener] Connecting to the Runner Server...
+[2020-04-13 10:47:31Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-04-13 10:47:31Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 10:47:32Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-04-13 10:47:32Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 10:47:32Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-04-13 10:47:32Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 10:47:32Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 10:47:32Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 10:47:33Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 10:47:33Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 10:47:33Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 10:47:33Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 10:47:33Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 10:47:33Z INFO MessageListener] VssConnection created
+[2020-04-13 10:47:33Z INFO Terminal] WRITE LINE: 
+[2020-04-13 10:47:33Z INFO Terminal] WRITE LINE: 
+[2020-04-13 10:47:33Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 6518bf57-63a1-413e-81ba-c4a5aa13d298
+ActivityId: 257b9b8e-9bc0-46cc-b70d-4cf6995262ef
+X-TFS-Session: e5ece930-fece-4549-8a9f-0c94354bca8d
+X-VSS-E2EID: 1210b25e-6513-4327-af7f-33f6272d264e
+X-VSS-SenderDeploymentId: 193695a0-0dcd-ade4-f810-b10ad24a9829
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 59484C9D9D7245B0B1FDE7E7D91C47B7 Ref B: FRA31EDGE0209 Ref C: 2020-04-13T10:47:33Z
+Date: Mon, 13 Apr 2020 10:47:33 GMT
+
+[2020-04-13 10:47:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_rsaparams
+[2020-04-13 10:47:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_rsaparams
+[2020-04-13 10:47:34Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-04-13 10:47:34Z INFO MessageListener] Session created.
+[2020-04-13 10:47:34Z INFO MessageListener] Start checking oauth authorization url update.
+[2020-04-13 10:47:34Z INFO Terminal] WRITE LINE: 2020-04-13 10:47:34Z: Listening for Jobs
+[2020-04-13 10:47:34Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2020-04-13 10:48:24Z INFO Terminal] WRITE LINE: Exiting...
+[2020-04-13 10:48:24Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-04-13 10:48:24Z INFO ConfigurationStore] IsServiceConfigured: False
+[2020-04-13 10:48:24Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2020-04-13 10:48:24Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/distributedtask/pools/1/messages?sessionId=384bce88-a402-4d0e-87e7-d9a97981ab29 has been cancelled.
+[2020-04-13 10:48:24Z INFO MessageListener] Get next message has been cancelled.
+[2020-04-13 10:48:24Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2020-04-13 10:48:25Z INFO Listener] Runner execution been cancelled.
