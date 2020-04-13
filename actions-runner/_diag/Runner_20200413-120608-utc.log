@@ -118,3 +118,163 @@ Date: Mon, 13 Apr 2020 12:06:09 GMT
 [2020-04-13 12:06:11Z INFO MessageListener] Start checking oauth authorization url update.
 [2020-04-13 12:06:11Z INFO Terminal] WRITE LINE: 2020-04-13 12:06:11Z: Listening for Jobs
 [2020-04-13 12:06:11Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2020-04-13 12:36:40Z INFO MessageListener] No message retrieved from session '51d50247-9294-424f-8398-6ad0388a9348' within last 30 minutes.
+[2020-04-13 12:42:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_rsaparams
+[2020-04-13 12:42:58Z INFO MessageListener] Message '1' received from session '51d50247-9294-424f-8398-6ad0388a9348'.
+[2020-04-13 12:42:58Z INFO JobDispatcher] Job request 1 for plan bbe00c85-71e2-410a-a4a9-19416857040e job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2020-04-13 12:42:58Z INFO Terminal] WRITE LINE: 2020-04-13 12:42:58Z: Running job: build
+[2020-04-13 12:42:58Z INFO JobDispatcher] Start renew job request 1 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2020-04-13 12:43:02Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 12:53:01
+[2020-04-13 12:43:02Z INFO HostContext] Well known directory 'Bin': '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper] Starting process:
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   File name: '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin/Runner.Worker'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 102'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/k21/Рабочий стол/copying_sas.am/actions-runner/bin'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2020-04-13 12:43:02Z INFO ProcessInvokerWrapper] Process started with process id 9449, waiting for process exit.
+[2020-04-13 12:43:02Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2020-04-13 12:43:02Z INFO JobNotification] Entering JobStarted Notification
+[2020-04-13 12:43:02Z INFO JobNotification] Entering StartMonitor
+[2020-04-13 12:44:03Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 12:54:02
+[2020-04-13 12:45:03Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 12:55:03
+[2020-04-13 12:46:04Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 12:56:04
+[2020-04-13 12:47:06Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 12:57:06
+[2020-04-13 12:48:07Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 12:58:07
+[2020-04-13 12:49:08Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 12:59:08
+[2020-04-13 12:50:09Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:00:09
+[2020-04-13 12:51:10Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:01:10
+[2020-04-13 12:52:11Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:02:11
+[2020-04-13 12:53:12Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:03:12
+[2020-04-13 12:54:13Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:04:13
+[2020-04-13 12:55:14Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:05:14
+[2020-04-13 12:56:15Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:06:15
+[2020-04-13 12:57:16Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:07:16
+[2020-04-13 12:58:17Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:08:17
+[2020-04-13 12:59:19Z WARN GitHubActionsService] Attempt 1 of PATCH request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/distributedtask/pools/1/jobrequests/1?lockToken=00000000-0000-0000-0000-000000000000 failed (Socket Error: ConnectionReset). The operation will be retried in 11,09 seconds.
+[2020-04-13 12:59:34Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:09:34
+[2020-04-13 13:00:34Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 13.04.2020 13:10:34
+[2020-04-13 13:00:53Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-13 13:00:53Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-13 13:00:53Z INFO ProcessInvokerWrapper] Finished process 9449 with exit code 102, and elapsed time 00:17:51.6524147.
+[2020-04-13 13:00:53Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2020-04-13 13:00:53Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2020-04-13 13:00:53Z INFO Terminal] WRITE LINE: 2020-04-13 13:00:53Z: Job build completed with result: Failed
+[2020-04-13 13:00:53Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2020-04-13 13:00:53Z INFO JobDispatcher] job renew has been canceled, stop renew job request 1.
+[2020-04-13 13:00:53Z INFO JobNotification] Entering JobCompleted Notification
+[2020-04-13 13:00:53Z INFO JobNotification] Entering EndMonitor
+[2020-04-13 13:01:44Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 40ac32e8-e0de-4a28-8373-a585c964349a
+ActivityId: af5bd37c-ed26-4742-abe7-6c446fb712a6
+X-TFS-Session: a816fe24-76d0-4db4-b7d2-ea1bb39c26a1
+X-VSS-E2EID: 2b3d71e4-3353-41f4-91c3-222e98e7e05d
+X-VSS-SenderDeploymentId: 193695a0-0dcd-ade4-f810-b10ad24a9829
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 12A6AED5F5334FC090C7D8FBDFF62729 Ref B: FRAEDGE0919 Ref C: 2020-04-13T13:01:44Z
+Date: Mon, 13 Apr 2020 13:01:44 GMT
+
+[2020-04-13 13:01:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/k21/Рабочий стол/copying_sas.am/actions-runner/.credentials_rsaparams
+[2020-04-13 13:01:47Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-04-13 13:01:47Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (2,5887073 seconds)
+[2020-04-13 13:13:41Z INFO MessageListener] No message retrieved from session '51d50247-9294-424f-8398-6ad0388a9348' within last 30 minutes.
+[2020-04-13 13:16:23Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/distributedtask/pools/1/messages?sessionId=51d50247-9294-424f-8398-6ad0388a9348&lastMessageId=1 timed out after 60 seconds.
+[2020-04-13 13:16:23Z ERR  MessageListener] Catch exception during get next message.
+[2020-04-13 13:16:23Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2020-04-13 13:16:23Z ERR  MessageListener] #####################################################
+[2020-04-13 13:16:23Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2020-04-13 13:16:23Z ERR  MessageListener] #####################################################
+[2020-04-13 13:16:23Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+[2020-04-13 13:16:23Z ERR  MessageListener] #####################################################
+[2020-04-13 13:16:23Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2020-04-13 13:16:23Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2020-04-13 13:16:23Z ERR  Terminal] WRITE ERROR: 2020-04-13 13:16:23Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2020-04-13 13:16:23Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2020-04-13 13:16:23Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-04-13 13:16:23Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 13:16:23Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/connectionData?connectOptions=0&lastChangeId=6582275&lastChangeId64=6582275 failed (Socket Error: TryAgain). The operation will be retried in 11,056 seconds.
+[2020-04-13 13:16:34Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/connectionData?connectOptions=0&lastChangeId=6582275&lastChangeId64=6582275 failed (Socket Error: TryAgain). The operation will be retried in 12,832 seconds.
+[2020-04-13 13:16:47Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/connectionData?connectOptions=0&lastChangeId=6582275&lastChangeId64=6582275 failed (Socket Error: TryAgain). The operation will be retried in 18,246 seconds.
+[2020-04-13 13:17:05Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/connectionData?connectOptions=0&lastChangeId=6582275&lastChangeId64=6582275 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2020-04-13 13:17:05Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 13:17:05Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2020-04-13 13:17:05Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerServer.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2020-04-13 13:17:05Z ERR  RunnerServer] #####################################################
+[2020-04-13 13:17:05Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+[2020-04-13 13:17:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 13:17:05Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/connectionData?connectOptions=0&lastChangeId=6582275&lastChangeId64=6582275 failed (Socket Error: TryAgain). The operation will be retried in 11,042 seconds.
+[2020-04-13 13:17:16Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/connectionData?connectOptions=0&lastChangeId=6582275&lastChangeId64=6582275 failed (Socket Error: TryAgain). The operation will be retried in 13,303 seconds.
+[2020-04-13 13:17:30Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/rsd4rt7mvioZPRPPx9eGMKCUsMD0U7aSwmre1aDWYCFCnIAMaz/_apis/connectionData?connectOptions=0&lastChangeId=6582275&lastChangeId64=6582275 failed (Socket Error: TryAgain). The operation will be retried in 16,398 seconds.
+[2020-04-13 13:17:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 13:17:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-13 13:17:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-13 13:17:47Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2020-04-13 13:19:04Z INFO Terminal] WRITE LINE: 2020-04-13 13:19:04Z: Runner reconnected.

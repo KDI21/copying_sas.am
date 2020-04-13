@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "KDI21/copying_sas.am",
+  "pipelineDirectory": "copying_sas.am",
+  "workspaceDirectory": "copying_sas.am/copying_sas.am",
+  "repositories": {
+    "KDI21/copying_sas.am": {
+      "repositoryPath": "copying_sas.am/copying_sas.am",
+      "lastRunOn": "04/13/2020 15:43:07 +03:00"
+    }
+  },
+  "lastRunOn": "04/13/2020 15:43:07 +03:00"
+}
